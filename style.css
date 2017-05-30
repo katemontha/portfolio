@@ -10,3 +10,7 @@ img {
 li {
   list-style: none;
 }
+
+.jumbotron {
+  background: white;
+}

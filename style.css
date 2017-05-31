@@ -9,6 +9,7 @@
 
 body {
   text-align: center;
+  color: #444;
 }
 
 img {
@@ -22,4 +23,15 @@ li {
 
 .jumbotron {
   background-color: transparent !important;
+}
+
+.btn-secondary {
+  border: 2px solid #ddd !important;
+  color: #444;
+}
+
+.btn-secondary:hover {
+  background-color: #ddd;
+  border: 2px solid #ddd !important;
+  color: #fff !important;
 }

@@ -2,69 +2,69 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <title>Kate Montha</title>
 </head>
-
 <body>
   <!-- navbar -->
   <nav>
-    <div class="container">
-      <p class="navbar-text navbar-right"><a href="#" class="navbar-link">Contact Me</a></p>
-    </div>
+    <p class="navbar-text navbar-right">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle navbar-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Check Me out! <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://github.com/katemontha">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/kate-montha-938220141/">LinkedIn</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="mailto:katemontha@gmail.com">Email</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </p>
   </nav>
 
-<!-- jumbotron -->
-<div class="jumbotron">
-  <div class="container">
-    <h1>Hello, world!</h1>
-    <p>My name is Kate Montha. I'm a Web Development Immersive student at General Assembly. Here are the projects I've completed so far.</p>
-  </div>
-</div>
-
-<!-- rows with project thumbnails -->
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <a href="http://grave-digger-bat-53556.bitballoon.com/"><img src="images/hangman.png" alt="hangman screenshot"></a>
-    </div>
-    <div class="caption">
-        <h3>Hangman</h3>
-        <p>This is our first project. We were to apply our knowledge of HTML, CSS, and Javascript to create a simple game. https://github.com/katemontha/project-1</p>
-
+  <!-- jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <p>My name is Kate Montha. I'm a Web Development Immersive student at General Assembly. Here are the projects I've completed so far.</p>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <a href="https://quiet-peak-92483.herokuapp.com/users"><img src="images/cheerups.png" alt="cheerups screenshot"></a>
+  <!-- rows with project thumbnails -->
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <a href="http://grave-digger-bat-53556.bitballoon.com/"><img src="images/hangman.png" alt="hangman screenshot"></a>
+      </div>
+      <div class="caption">
+          <h3>Hangman</h3>
+          <p>This is our first project. We were to apply our knowledge of HTML, CSS, and Javascript to create a simple game.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/katemontha/project-1" role="button">View GitHub Repo &raquo;</a></p>
+      </div>
     </div>
-    <div class="caption">
-        <h3>Cheer Ups</h3>
-        <p>Second project. https://github.com/katemontha/project-2</p>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <a href="https://quiet-peak-92483.herokuapp.com/users"><img src="images/cheerups.png" alt="cheerups screenshot"></a>
+      </div>
+      <div class="caption">
+          <h3>Cheer Ups</h3>
+          <p>For our second project we created a full CRUD application using MEN stack. View my repo below for more details about this app.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/katemontha/project-2" role="button">View GitHub Repo &raquo;</a></p>
+      </div>
     </div>
   </div>
-</div>
-
-<hr>
-
-<footer>
-  <p>&copy; 2017</p>
-</footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  <hr>
+  <footer>
+    <p>&copy; 2017</p>
+  </footer>
+</body>
 </html>
